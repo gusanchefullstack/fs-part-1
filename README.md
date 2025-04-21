@@ -1,12 +1,50 @@
-# React + Vite
+# Curso de Desarrollo Full Stack - Parte 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es parte del curso de Desarrollo Full Stack de la Universidad de Helsinki. Se trata de una aplicación React que muestra información sobre un curso de desarrollo de aplicaciones.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Muestra información sobre un curso de desarrollo de aplicaciones
+- Presenta los diferentes módulos del curso y sus ejercicios
+- Calcula el total de ejercicios del curso
+- Desarrollado con React y Vite
 
-## Expanding the ESLint configuration
+## Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── App.jsx          # Componente principal de la aplicación
+├── Header.jsx       # Componente para el encabezado del curso
+├── Content.jsx      # Componente para el contenido del curso
+└── Total.jsx        # Componente para mostrar el total de ejercicios
+```
+
+## Tecnologías Utilizadas
+
+- React
+- Vite
+- JavaScript
+- ESLint
+
+## Instalación
+
+1. Clona este repositorio
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+## Scripts Disponibles
+
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run lint` - Ejecuta el linter
+- `npm run preview` - Previsualiza la versión de producción
+
+## Licencia
+
+Este proyecto es parte del curso de Desarrollo Full Stack de la Universidad de Helsinki.
